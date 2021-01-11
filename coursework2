@@ -11,7 +11,7 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
 twitter_api = twitter.Twitter(auth=auth, retry=True)
 
 # setup a file to write to
-csvfile = open('Microsoft_tweets_extende12.csv', 'w')
+csvfile = open('Microsoft_tweets_extende.csv', 'w')
 csvwriter = csv.writer(csvfile, delimiter='|')
 
 #  heres a function that takes out characters that can break
